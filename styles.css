@@ -1,0 +1,698 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 60px;
+    background-color: #0F427C;
+    border-bottom: 3px solid black;
+    display: flex;
+    width: 100%;
+
+}
+.header_container {
+    margin: auto;
+    width: 940px;
+    display: flex;
+}
+
+.image_container{
+    width:100%;
+    height:100%;
+    background-position:center;
+    background-size: cover;
+    background-image: url("images/waterPic.png");
+}
+
+.menu {
+    margin-left: auto;
+    display:flex;
+    gap: 25px;
+    font-size:20px;
+    color: #F5F5F5;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header_image {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #69b9ff;
+        font-size: 25px;
+        text-align:left;
+        line-height: 25px;
+        font-weight: 300;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        float: left;
+    }
+    .menu > div:hover {
+        color: #69b9ff;
+        cursor: pointer;
+    }
+
+
+    .greaterHero{
+    background-image: url("images/marbSailor.png");
+
+    }
+
+
+
+.hero{
+    background-image: url(images/marbSailor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+
+.w_container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero_heading {
+    margin-bottom: 30px;
+    color: #F6F2F2;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    justify-content:flex-end;
+    text-transform: uppercase;
+    height: 100%; 
+    white-space: nowrap;
+    padding-left: 170%;
+}
+.hero_subheading{
+    margin-top: 100px;
+    color: #000;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 25%;
+
+}
+
+.marbSailingBackground{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.column1{
+    flex-direction: column;
+    border: 5px solid;
+    background:green;
+    width:400px;
+    height: auto;
+    padding-bottom: auto%;
+
+}
+
+
+.subC1{
+    height:800px;
+    width:700px;
+    margin-left: 120%;
+    background-color: #000;
+    border: solid 4px #F5F5F5;
+}
+
+.subC2{
+    height:50px;
+    width:400px;
+    background-color: green;
+    margin-left: 25%;
+    font-size: 30px;
+    border: 5px solid #F5F5F5;
+    background-color: #0F427C;
+    margin-top: 2%;
+    padding-top: 3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.subC3{
+    height:400px;
+    width:90%;
+    background-color: blue;
+    margin-left: 2%;
+    font-size: 17px;
+    border: 5px solid #F5F5F5;
+    background-color: #0F427C;
+    margin-top: 10%;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right:2%;
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.subC3 a {
+    color: #69b9ff; 
+}
+
+.subC3 a:hover{
+    color: #ecff17; 
+}
+
+.velocity{
+    margin-bottom: 30px;
+}
+
+.menu_urls{
+        color: #F5F5F5;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .menu_urls:hover {
+        color: #69b9ff;
+        cursor: pointer;
+    }
+
+    .footer{
+        width: 98%;
+        padding: 10px;
+        height: 15px;
+        border: 0px;
+        background-color: #0F427C;
+        margin-left: auto;
+        display:flex;
+        gap: 25px;
+        font-size:15px;
+        color: #F5F5F5;
+        font-family: 'Times New Roman', Times, serif;
+        align-items: center;
+        text-decoration: none;
+        padding-left: 2%;
+    }
+
+    .column2{
+        flex-direction: column;
+        width:400px;
+        height:auto;
+        padding-bottom: 150%;
+        padding-left: 5%;
+    
+    }
+    .row2{
+        flex-direction: row;
+        border: 5px solid;
+        background: blue;
+        width: 40%;
+        height: 10%;
+        padding-bottom: 100%;
+    }
+    
+    .indent0{
+        width:400px;
+        height:400px;
+        background-image: url(images/theSailor.png);
+        margin-top: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 6px solid;
+        margin-left: 105%;
+
+    }
+
+    .indent1{
+        margin-bottom: 30px;
+        color: #000;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height: 35px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        justify-content:flex-end;
+        text-transform: uppercase;
+        height: 100%; 
+        white-space: nowrap;
+        padding-left: 210%;
+    }
+
+    .indent2{
+        margin-top: 40px;
+        color: #000;
+        font-size: 30px;
+        border: 5px solid;
+        width: 350px;
+        height: 40px;
+        background: #69b9ff;
+        margin-left: 110%;
+        line-height: 35px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+
+
+    }
+    
+    .textContainerBox1{
+        border: 5px solid;
+        width: 400px;
+        height: 550px;
+        background-color: #69b9ff;
+        margin-left: 105%;
+        
+    }
+
+    .indent3{
+        margin-top: 20px;
+        margin-left: 10%;
+
+    }
+
+    .background_image {
+        position: fixed;
+        background-image: url("images/waterPic.png");
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: -1;
+        background-size: cover;
+        background-position: center;
+        left: 0;
+        width: 100%;
+
+    }
+    
+
+    .indent4{
+        margin-top: 20px;
+        margin-left: 10%;
+
+    }
+
+    .indent5{
+        margin-top: 20px;
+        margin-left: 10%;
+
+    }
+
+    .indent3{
+        margin-top: 20px;
+        margin-left: 10%;
+
+    }
+
+    .indent6{
+        margin-top: 20px;
+        margin-left: 25%;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-weight: bold;
+
+
+
+    }
+
+    .indent7{
+        margin-top: 20px;
+        margin-left: 10%;
+
+    }
+
+    .indent8{
+        margin-top: 20px;
+        margin-left: 40%;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+
+
+    }
+
+    .fD1{
+        margin-top: 20px;
+        margin-left: 10%;
+
+    }
+
+    .fD1::before {
+        content: '\2022'; /* Unicode character for a bullet point */
+        color: #000;
+    }
+
+    
+    .indent69{
+        margin-top: 40%;
+        color: #000;
+        font-size: 30px;
+        border: 5px solid;
+        width: 330px;
+        height: 40px;
+        background: #69b9ff;
+        margin-left: 5%;
+        line-height: 35px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+
+    .textContainerBox2{
+        border: 5px solid;
+        width: 400px;
+        height: 620px;
+        background-color: #69b9ff;
+        margin-left: 0%;
+    }
+
+    .indent10{
+        margin-top: 20px;
+        margin-left: 9%;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+
+
+    .indent11{
+        margin-top: 20px;
+        margin-left: 9%;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+
+    .johnnyK{
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+
+    .indent6969{
+        margin-top: 40%;
+        color: #000;
+        font-size: 30px;
+        border: 5px solid;
+        width: 250px;
+        height: 40px;
+        background: #69b9ff;
+        margin-left: 0%;
+        line-height: 35px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+
+
+    .textContainerBox3{
+        padding-top: 20px; 
+        border: 5px solid;
+        width: 400px;
+        height: 620px;
+        background-color: #69b9ff;
+        margin-left: -20%;
+    }
+
+    .socialLink {
+        margin-top: 20px;
+        margin-left: 30%;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    #custom_link1 {
+        margin-top: 30px;
+    }
+    
+    #custom_link2 {
+        margin-top: 40px;
+    }
+    
+    #custom_link3 {
+        margin-top: 50px;
+    }
+
+    .indent1569{
+        margin-top: 0%;
+        margin-left: 30%;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-weight: bold;
+
+
+    }
+
+    .firstlink{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 0%;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+
+    .textContainerBox4{
+        padding-top: 20px; 
+        border: 5px solid;
+        width: 400px;
+        height: 320px;
+        background-color: #69b9ff;
+        margin-left: -20%;
+    }
+
+
+    .indent97{
+        width:400px;
+        height:400px;
+        background-image: url(images/moresailor.png);
+        margin-top: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 6px solid;
+        margin-left: -22%;
+
+    }
+
+    /* NOW FOR THE CONTACT US PAGE */ 
+    .indent93{
+        margin-top:20px;
+        width:800px;
+        height:auto;
+        border: 5px solid;
+        background-color: #0F427C;
+        margin-left: 25%;
+        margin-bottom: 20%;
+
+    }
+
+    .majorBox1{
+        margin-top:10%;
+        padding-top:2%;
+        border: 5px solid #000;
+        font-size: 20px;
+        color: #F5F5F5;
+        width:750px;
+        height:40px;
+        background-color:#0F427C;
+        margin-left: 3%;
+        text-align: center;
+        
+
+    }
+    .majorBox2{
+        margin-top:3%;
+        width:600px;
+        height:500px;
+        margin-left: 10%;
+    }
+
+
+    .minorBox1{
+        padding-top:3%;
+        color: #F5F5F5;
+        margin-top:5%;
+        font-size: 20px;
+        text-align: center;
+        border: 5px solid #000;
+        width:570px;
+        height:50px;
+        background-color: #0F427C;
+        margin-left: 5%;
+        color: white;
+        text-decoration: none;
+    }
+
+    .minorBox1 a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+
+    .background_image1 {
+        position: fixed;
+        background-image: url("images/sotoHotel.png");
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: -1;
+        background-size: cover;
+        background-position: center;
+        left: 0;
+        width: 100%;
+
+    }
+
+    .upperBoundText{
+        padding-top: 10%;
+        color: #FFDF00;
+        font-size: 40px;
+        line-height: 35px;
+        margin-left: 17%;
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    
+    }
+
+
+    .upperBoundTex2{
+        padding-top: 10%;
+        color: #FFDF00;
+        font-size: 40px;
+        width: 500px;
+        line-height: 35px;
+        margin-left: 17%;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-left: 15%;
+        text-transform: uppercase;
+
+    
+    }
+
+    .majorBox3{
+        margin-top:3%;
+        width:650px;
+        height:800px;
+        margin-left: 10%;
+        padding-bottom:20%;
+        margin-bottom: 20%;
+    }
+
+    .minorBox2{
+        margin-top:3%;
+        width:550px;
+        height:600px;
+        background-color:orange;
+        border: 5px solid black;
+        margin-left: 5%;
+        padding-bottom:20%;
+        margin-bottom: 20%;
+        text-align: center;
+    }
+
+    .minorBox2 label{
+        color: #f5f5f5;
+        font-size:20px;
+    }
+
+    .minorBox2 form{
+        margin-top: 50px;
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+        list-style:none;
+    }
+
+    .minorBox2 textarea{
+        margin-top: 50px;
+        padding:20px;
+        font-size:15px;
+        width: 500px;
+        height: 100px;
+    }
+
+    .minorBox2 select{
+        margin-top: 30px;
+        padding: 8px;
+        width: 50%;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    li label {
+        margin-bottom: 2px; /* Adjust the value as needed */
+        display: block;
+    }
+
+    .minorbox2 button{
+        margin-top: 50px;
+        font-size: 30px;
+        padding: 10px;
+        background-color:#0F427C;
+        height: 50px;
+        color:#F5F5F5;
+        border: 2px solid;
+        cursor:pointer;
+        border-radius: 5px;
+
+    }
+
+    .background_image3 {
+        position: fixed;
+        background-image: url("images/esteponaNightSky.png");
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: -1;
+        background-size: cover;
+        background-position: center;
+        left: 0;
+        width: 100%;
+
+    }
+
+    .indentFakeBackgroundSquare{
+        width:350%;
+        height: 500px;
+        background-color:blue;
+    }
+
+    .indent88{
+        width:400px;
+        height:400px;
+        background-image: url(images/theSailor.png);
+        margin-top: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 6px solid;
+        margin-left: 0%;
+    }
